@@ -120,9 +120,10 @@ div.card {
     background-color: #5d3454;
 }
 
-p.badge {
+span.badge {
     background-color: #3d0d35;
     margin:0px;
+    font-size: small;
 }
 
 div.teamcard {
