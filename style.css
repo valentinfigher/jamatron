@@ -125,12 +125,12 @@ p.badge {
     margin:0px;
 }
 
-div.card-body {
+div.teamcard {
     font-size: small;
     text-align: center;
 }
 
-div.card-body h3 {
+div.teamcard h3 {
     font-family: 'Bungee', cursive;
     color:#dbcbcb;
     font-size: small;
