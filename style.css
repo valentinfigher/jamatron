@@ -124,3 +124,16 @@ p.badge {
     background-color: #3d0d35;
     margin:0px;
 }
+
+div.card-body {
+    font-size: small;
+    text-align: center;
+}
+
+div.card-body h3 {
+    font-family: 'Bungee', cursive;
+    color:#dbcbcb;
+    font-size: small;
+    text-align: center;
+
+}
