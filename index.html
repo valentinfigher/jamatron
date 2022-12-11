@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Valentin Figher">
+    <meta name="keywords" content="music, social, listening, streaming, session">
+    <meta name="description"
+        content="Jamatron - a new way to listen to your favorite music, together with friends and fans">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jamatron - stream with friends</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+        <!--navbar-->
+    <header class="navbar navbar-expand-md meniu main-navbar sticky-top">
+        <nav class="container-xxl">
+
+            <a class="navbar-brand" href="index.html"> <!--logo-->
+                <img src="assets/logo.png" alt="Jamatron logo"> </a>
+            <a class="navbar-brand" href="index.html">Jamatron</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> <!--navbar button-->
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav navbar-nav flex-column flex-md-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutapp"> About the app </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features"> Features </a> <!--anchors-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team"> Our team </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <!--carousel-->
+    <div id="hero-carousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner ratio ratio-21x9">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="assets/featured-img.png" class="d-block w-100"
+                    alt="Headphones, keyboard, mouse and a pen and a notebook on a pink background.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Jamatron</h1>
+                    <p>A new way to listen to your favorite music, together with friends and fans.</p>
+                    <!--caption for desktop-->
+                </div>
+
+                <div class="carousel-caption d-block d-md-none">
+                    <h1>Jamatron</h1>
+                    <p>A new way to listen to your favorite music, together with friends and fans.</p>
+                    <!--caption for mobile-->
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/featured-img2.png" class="d-block w-100"
+                    alt="Drawn devices, including a laptop, a phone, a calculator, plus some sticky notes and a cup of coffee.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>New! OFFICIAL streaming parties</h2>
+                    <p>Connect with your favorite artist and fans all around the world in streaming parties, a chance to
+                        listen to a new body of work while its creator discusses the creative process, LIVE, as soon at
+                        it gets released.</p>
+                </div>
+
+                <div class="carousel-caption d-block d-md-none">
+                    <h2>Official streaming parties</h2>
+                    <p>Connect with your favorite artist and fans all around the world in streaming parties, a chance to
+                        listen to a new body of work while its creator discusses the creative process, LIVE, as soon at
+                        it gets released.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/featured-img3.png" class="d-block w-100"
+                    alt="A laptop, an open bag, a notebook and a cup of coffee all laid on a desk.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Leaderboards</h2>
+                    <p>Win awards on artist leaderboards and compete with other people.</p>
+                </div>
+
+                <div class="carousel-caption d-block d-md-none">
+                    <h2>Leaderboards</h2>
+                    <p>Win awards on artist leaderboards and compete with other people.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/featured-img4.png" class="d-block w-100"
+                    alt="A bunch of work related objects and the hands of a man holding a phone.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>New! Jamatron Streaming Stats</h2>
+                    <p>Do you wish to know how big of a fan of your favorite artist you are? Look no further. Jamatron
+                        takes streaming statistics and creates a leaderboard for each artist of their most passionate
+                        fans.</p>
+                </div>
+
+                <div class="carousel-caption d-block d-md-none">
+                    <h2>Jamatron Streaming Stats</h2>
+                    <p>Do you wish to know how big of a fan of your favorite artist you are? Look no further. Jamatron
+                        takes streaming statistics and creates a leaderboard for each artist of their most passionate
+                        fans.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/featured-img5.png" class="d-block w-100"
+                    alt="Two of our office colleagues looking at code on a laptop, one of them pointing at it.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>New! Apple Watch integration!</h2>
+                    <p>We're working on and we plan to release Apple Watch support in the near future! You will be able
+                        to control the streaming session directly from your watch, by playing/pausing, rewinding,
+                        skipping and even checking the queue.</p>
+                </div>
+
+                <div class="carousel-caption d-block d-md-none">
+                    <h2>Apple Watch integration!</h2>
+                    <p>We plan to release Apple Watch support in the near future! You will be able to control the
+                        streaming session directly from your watch, by playing/pausing, rewinding, skipping and even
+                        checking the queue.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        <!--About the app-->
+    <div class="container mt-4">
+        <h2 id="aboutapp" class="mb-3">About the app</h2>
+        <p>Jamatron takes listening parties to a whole new level. Jam to your favorite songs or to a fresh out the oven
+            release from one of your favorite artists with this innovative new social music service. </p>
+        <p>Jamatron connects to your everyday-use streaming service provider and allows you and your friends to jam
+            together, in real time, to the same music, from a distance.</p>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-5 col-lg-5">
+                <p>Have you ever wanted to stream music along with your friends from a distance, but you use different
+                    streaming services? Jamatron comes as a bridge over that problem! With Jamatron, you are able to
+                    connect various streaming services and create rooms for you and other people to join and play the
+                    exact same song at the exact same time! Easy, with no buffering, right to your app of choice.</p>
+                <p>While some services such as Spotify do offer some sort of streaming session feature, it is kept under
+                    a monthly paywall and it is exclusive to the users of that service. With Jamatron, the barriers are
+                    broken.</p>
+                <p>As a one-time purchase, the Jamatron app offers you seamless integration with numerous streaming apps
+                    and the ability to create unlimited rooms.</p>
+                <p>As for the Official Streaming Parties, we are still thinking of ways of giving access to people. We
+                    are considering selling entry tickets or making it subscription-based.</p>
+            </div>
+
+            <div class="col-12 col-md-7 col-lg-7">
+                <img class="icons w-100" src="assets/icons.png"
+                    alt="A collage of different device and media icons.">
+            </div>
+        </div>
+    </div>
+        <!--Features-->
+    <div class="container mt-4">
+        <h2 id="features" class="mb-3">Features</h2>
+
+        <div class="row">      <!--cards-->
+            <div class="col-6 d-flex align-items-stretch">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/features2.png" class="w-100 d-block mx-auto" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">cross platform compatibility</h3>
+                                <p class="card-text">stream with friends in real time across multiple platforms</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 d-flex align-items-stretch">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/features3.png" class="w-100 d-block mx-auto" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title"> profile with statistics</h3>
+                                <p class="card-text">check your streaming stats and compare them with friends</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 d-flex align-items-stretch">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/features1.png" class="card-img-top w-100 d-block mx-auto" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">seamless streaming platform login</h3>
+                                <p class="card-text">connect with your streaming service of choice (you can use spotify,
+                                    apple music, deezer, tidal and more)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 d-flex align-items-stretch">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/features4.png" class="w-100 d-block mx-auto" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">leaderboards and awards</h3>
+                                <p class="card-text">win awards on artist leaderboards and badges to show off on your profile</p>
+                                <p class="badge">currently unavailable</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 d-flex align-items-stretch">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/features5.png" class="p-1 w-100 d-block mx-auto" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">what we're working on</h3> 
+                                <p class="card-text">Here's where we post rough ideas and things we might implement in
+                                    the near future! Contact us with ideas, thoughts and opinions on the features listed
+                                    here! Should they be implemented? Your opinion matters.</p>
+                                <ul class="card-text">
+                                    <li>Genius lyrics integration</li>
+                                    <li>karaoke party</li>
+                                    <li>emoji reactions in the session rooms and DMs</li>
+                                    <li>communities and public rooms with higher capacities (200+ people)</li>
+                                </ul>
+                                <p class="badge">work in progress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Our team-->
+    <div class="container mt-4">
+        <h2 id="team" class="mb-3">Our team</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+</body>

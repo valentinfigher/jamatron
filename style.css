@@ -1,0 +1,111 @@
+body { 
+    font-family: 'Alata', sans-serif;
+    background-color: #85647c;
+    color:#dbcbcb;
+    text-align: justify;
+
+}
+.meniu {
+    background-color:#85647c
+    ;
+}
+.meniu img {
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.meniu .nav-link {
+    color:#dbcbcb;
+    font-family: 'Alata', sans-serif;
+    background-color: #3d0d35;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: smaller;
+    text-align: center;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.meniu .nav-link:hover{
+    color:#85647c;
+
+}
+
+
+.meniu .navbar-brand {
+    color: #dbcbcb;
+    font-family: 'Bungee', cursive;
+    padding-right: 15px;
+
+}
+
+button {
+    margin-right: 20px;
+}
+
+div.carousel-caption {
+    margin-bottom: 25%;
+    font-size:smaller;
+    background-color: #dbcbcbad;
+    border-radius: 10px;
+    margin-right:20px;
+    }
+
+h1, div.carousel-item h2 {
+    font-family: 'Bungee', cursive;
+    color: #3d0d35;
+
+}
+
+div.carousel-caption.d-block.d-md-none {
+    margin-bottom: 7%;
+    padding: 1%;
+    padding-top:2%;
+
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+
+ul.nav { display: flex;
+    align-items: right;
+}
+
+img.icons {
+    padding:20px;
+}
+
+div.carousel-caption.d-block.d-md-none h2 {
+    font-size: medium;
+}
+
+div.carousel-caption.d-block.d-md-none p {
+    font-size: smaller;
+}
+
+h2 {
+    font-family: 'Bungee', cursive;
+    color: #dbcbcb;
+}
+
+#aboutapp, #features, #team {
+    padding-top: 60px;
+}
+
+div.card {
+    background-color: #5d3454;
+}
+
+h3 {
+    text-align: left;
+}
+
+p.badge {
+    background-color: #3d0d35;
+    margin:0px;
+}
