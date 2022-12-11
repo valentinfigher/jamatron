@@ -6,6 +6,21 @@ body {
 
 }
 
+h1 {
+    font-family: 'Bungee', cursive;
+    color: #3d0d35;
+}
+
+h2 {
+    font-family: 'Bungee', cursive;
+    color: #dbcbcb;
+}
+
+h3 {
+    text-align: left;
+}
+
+/*nav*/
 .meniu {
     background-color:#85647c;
 }
@@ -14,6 +29,13 @@ body {
     width: 40px;
     margin-left: 20px;
     margin-right: 5px;
+}
+
+a.navbar-brand {
+    transition: color 350ms ease-out 100ms
+}
+a.navbar-brand:hover {
+    color: #3d0d35;
 }
 
 .meniu .nav-link {
@@ -33,7 +55,6 @@ body {
 
 }
 
-
 .meniu .navbar-brand {
     color: #dbcbcb;
     font-family: 'Bungee', cursive;
@@ -45,6 +66,12 @@ button {
     margin-right: 20px;
 }
 
+ul.nav { display: flex;
+    align-items: right;
+}
+
+/*carousel*/
+
 div.carousel-caption {
     font-size:smaller;
     background-color: #dbcbcbad;
@@ -52,7 +79,7 @@ div.carousel-caption {
     margin-right:20px;
     }
 
-h1, div.carousel-item h2 {
+div.carousel-item h2 {
     font-family: 'Bungee', cursive;
     color: #3d0d35;
 
@@ -68,16 +95,8 @@ div.carousel-caption.d-block.d-md-none {
     width: 10px;
    height: 10px;
    border-radius: 100%;
+   margin-right: 10px;
  }
-
-
-ul.nav { display: flex;
-    align-items: right;
-}
-
-img.icons {
-    padding:20px;
-}
 
 div.carousel-caption.d-block.d-md-none h2 {
     font-size: medium;
@@ -87,21 +106,18 @@ div.carousel-caption.d-block.d-md-none p {
     font-size: smaller;
 }
 
-h2 {
-    font-family: 'Bungee', cursive;
-    color: #dbcbcb;
-}
+/*others*/
 
 #aboutapp, #features, #team {
     padding-top: 60px;
 }
 
-div.card {
-    background-color: #5d3454;
+img.icons {
+    padding:20px;
 }
 
-h3 {
-    text-align: left;
+div.card {
+    background-color: #5d3454;
 }
 
 p.badge {
