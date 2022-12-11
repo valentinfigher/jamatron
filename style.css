@@ -46,7 +46,6 @@ button {
 }
 
 div.carousel-caption {
-    margin-bottom: 25%;
     font-size:smaller;
     background-color: #dbcbcbad;
     border-radius: 10px;
@@ -60,7 +59,6 @@ h1, div.carousel-item h2 {
 }
 
 div.carousel-caption.d-block.d-md-none {
-    margin-bottom: 4.5%;
     padding: 1%;
     padding-top:2%;
 
@@ -70,7 +68,6 @@ div.carousel-caption.d-block.d-md-none {
     width: 10px;
    height: 10px;
    border-radius: 100%;
- 
  }
 
 
