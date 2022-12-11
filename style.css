@@ -2,13 +2,14 @@ body {
     font-family: 'Alata', sans-serif;
     background-color: #85647c;
     color:#dbcbcb;
-    text-align: justify;
+    text-align:justify;
 
 }
+
 .meniu {
-    background-color:#85647c
-    ;
+    background-color:#85647c;
 }
+
 .meniu img {
     width: 40px;
     margin-left: 20px;
@@ -59,7 +60,7 @@ h1, div.carousel-item h2 {
 }
 
 div.carousel-caption.d-block.d-md-none {
-    margin-bottom: 7%;
+    margin-bottom: 4.5%;
     padding: 1%;
     padding-top:2%;
 
@@ -69,6 +70,7 @@ div.carousel-caption.d-block.d-md-none {
     width: 10px;
    height: 10px;
    border-radius: 100%;
+ 
  }
 
 
