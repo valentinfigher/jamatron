@@ -152,6 +152,9 @@ div.teamcard h3 {
     background-color: #0000000f;
 }
 
+.fa-arrow-down{
+    margin-left:5px;
+}
 .footerlinks {
     margin-bottom: 0;
     font-size: medium;
