@@ -25,6 +25,7 @@
 <body>
         <!--navbar-->
     <header class="navbar navbar-expand-md meniu main-navbar sticky-top">
+        <div id="scroll-progress"></div>
         <nav class="container-xxl">
 
             <a class="navbar-brand" href="index.html"> <!--logo-->
@@ -50,6 +51,7 @@
                 </ul>
             </div>
         </nav>
+    
     </header>
         <!--carousel-->
     <div id="hero-carousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="true">
@@ -483,4 +485,13 @@ Contact us if you have any questions about Jamatron and request any features you
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
         </script>
     <script src="https://kit.fontawesome.com/a88310ed47.js" crossorigin="anonymous"></script>
+    <script>const scrollProgress = document.getElementById('scroll-progress');
+        const height =
+          document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        
+        window.addEventListener('scroll', () => {
+          const scrollTop =
+            document.body.scrollTop || document.documentElement.scrollTop;
+          scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+        });</script>
 </body>

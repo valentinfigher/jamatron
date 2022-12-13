@@ -68,6 +68,14 @@ ul.nav { display: flex;
     align-items: right;
 }
 
+#scroll-progress {
+    position:fixed;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background:#3d0d35;
+    z-index: 1;
+  }
 /*carousel*/
 
 div.carousel-caption {
