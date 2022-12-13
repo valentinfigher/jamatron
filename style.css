@@ -79,11 +79,6 @@ div.carousel-caption {
     margin-right:20px;
     }
 
-div.carousel-item h2 {
-    font-family: 'Bungee', cursive;
-    color: #3d0d35;
-
-}
 
 div.carousel-caption.d-block.d-md-none {
     padding: 1%;
@@ -106,6 +101,13 @@ div.carousel-caption.d-block.d-md-none p {
     font-size: smaller;
 }
 
+.caption-heading {
+    font-family: 'Bungee', cursive;
+    color: #3d0d35;
+    margin-bottom: 0;
+    font-size: medium;
+
+}
 /*others*/
 
 #aboutapp, #features, #team {
