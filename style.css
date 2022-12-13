@@ -2,8 +2,6 @@ body {
     font-family: 'Alata', sans-serif;
     background-color: #85647c;
     color:#dbcbcb;
-    text-align:justify;
-
 }
 
 h1 {
@@ -114,6 +112,9 @@ div.carousel-caption.d-block.d-md-none p {
     padding-top: 60px;
 }
 
+.text-justify {
+    text-align:justify;
+}
 img.icons {
     padding:20px;
 }
@@ -121,6 +122,7 @@ img.icons {
 div.card {
     background-color: #5d3454;
 }
+
 
 span.badge {
     background-color: #3d0d35;
