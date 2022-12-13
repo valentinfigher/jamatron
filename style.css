@@ -140,3 +140,37 @@ div.teamcard h3 {
     text-align: center;
 
 }
+
+.footerstyle {
+    background-color: #3d0d35;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.copyrightshade {
+    background-color: #0000000f;
+}
+
+.footerlinks {
+    margin-bottom: 0;
+    font-size: medium;
+    color:#dbcbcb;
+    text-decoration: none;
+}
+
+.footerlinks:hover {
+        margin-bottom: 0;
+        font-size: medium;
+        color:#dbcbcbdb;
+        text-decoration: none;
+    
+}
+
+.dyma {
+    font-family: 'Bungee', cursive;
+}
+iframe {
+    height: 200px;
+    border-radius: 10%;
+}
