@@ -1,3 +1,5 @@
+/*important*/
+
 body { 
     font-family: 'Alata', sans-serif;
     background-color: #85647c;
@@ -18,12 +20,17 @@ h3 {
     text-align: left;
 }
 
+#aboutapp, #features, #team {
+    padding-top: 60px;
+}
+
 /*nav*/
-.meniu {
+
+.menunav {
     background-color:#85647c;
 }
 
-.meniu img {
+.menunav img {
     width: 40px;
     margin-left: 20px;
     margin-right: 5px;
@@ -32,11 +39,12 @@ h3 {
 a.navbar-brand {
     transition: color 350ms ease-out 100ms
 }
+
 a.navbar-brand:hover {
     color: #3d0d35;
 }
 
-.meniu .nav-link {
+.menunav .nav-link {
     color:#dbcbcb;
     font-family: 'Alata', sans-serif;
     background-color: #3d0d35;
@@ -48,16 +56,14 @@ a.navbar-brand:hover {
     margin-top:5px;
 }
 
-.meniu .nav-link:hover{
+.menunav .nav-link:hover{
     color:#85647c;
-
 }
 
-.meniu .navbar-brand {
+.menunav .navbar-brand {
     color: #dbcbcb;
     font-family: 'Bungee', cursive;
     padding-right: 15px;
-
 }
 
 button {
@@ -75,7 +81,9 @@ ul.nav { display: flex;
     height: 4px;
     background:#3d0d35;
     z-index: 1;
-  }
+}
+
+
 /*carousel*/
 
 div.carousel-caption {
@@ -84,7 +92,6 @@ div.carousel-caption {
     border-radius: 10px;
     margin-right:20px;
     }
-
 
 div.carousel-caption.d-block.d-md-none {
     padding: 1%;
@@ -97,7 +104,7 @@ div.carousel-caption.d-block.d-md-none {
    height: 10px;
    border-radius: 100%;
    margin-right: 10px;
- }
+}
 
 div.carousel-caption.d-block.d-md-none h2 {
     font-size: medium;
@@ -112,25 +119,22 @@ div.carousel-caption.d-block.d-md-none p {
     color: #3d0d35;
     margin-bottom: 0;
     font-size: medium;
-
 }
-/*others*/
 
-#aboutapp, #features, #team {
-    padding-top: 60px;
+
+/*sections*/
+
+img.icons {
+    padding:20px;
 }
 
 .text-justify {
     text-align:justify;
 }
-img.icons {
-    padding:20px;
-}
 
 div.card {
     background-color: #5d3454;
 }
-
 
 span.badge {
     background-color: #3d0d35;
@@ -151,11 +155,12 @@ div.teamcard h3 {
 
 }
 
+/*footer*/
+
 .footerstyle {
     background-color: #3d0d35;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-
 }
 
 .copyrightshade {
@@ -165,6 +170,7 @@ div.teamcard h3 {
 .fa-arrow-down{
     margin-left:5px;
 }
+
 .footerlinks {
     margin-bottom: 0;
     font-size: medium;
@@ -173,16 +179,16 @@ div.teamcard h3 {
 }
 
 .footerlinks:hover {
-        margin-bottom: 0;
-        font-size: medium;
-        color:#dbcbcbdb;
-        text-decoration: none;
-    
+    margin-bottom: 0;
+    font-size: medium;
+    color:#dbcbcbdb;
+    text-decoration: none;
 }
 
 .dyma {
     font-family: 'Bungee', cursive;
 }
+
 iframe {
     height: 200px;
     border-radius: 10%;
