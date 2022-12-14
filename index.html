@@ -2,17 +2,23 @@
 <html>
 
 <head>
+    <!--meta-->
     <meta charset="utf-8">
     <meta name="author" content="Valentin Figher">
     <meta name="keywords" content="music, social, listening, streaming, session">
     <meta name="description"
         content="Jamatron - a new way to listen to your favorite music, together with friends and fans">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jamatron - stream with friends</title>
+
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--favicon-->
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <!--style.css-->
     <link rel="stylesheet" href="style.css">
+    <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
@@ -23,27 +29,29 @@
 
 
 <body>
-        <!--navbar-->
+    <!--header-->
     <header class="navbar navbar-expand-md meniu main-navbar sticky-top">
+        <!--progress bar-->
         <div id="scroll-progress"></div>
+        <!--navbar-->
         <nav class="container-xxl">
-
-            <a class="navbar-brand" href="index.html"> <!--logo-->
+            <!--logo-->
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/logo.png" alt="Jamatron logo"> </a>
             <a class="navbar-brand" href="index.html">Jamatron</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
-                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <!--navbar button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+                aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> <!--navbar button-->
-
-            <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
+            </button>
+            <!--anchors-->
+            <div class="collapse navbar-collapse justify-content-end" id="navmenu">
                 <ul class="nav navbar-nav flex-column flex-md-row">
                     <li class="nav-item">
                         <a class="nav-link" href="#aboutapp"> About the app </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features"> Features </a> <!--anchors-->
+                        <a class="nav-link" href="#features"> Features </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#team"> Our team </a>
@@ -51,10 +59,12 @@
                 </ul>
             </div>
         </nav>
-    
     </header>
-        <!--carousel-->
+
+
+    <!--carousel-->
     <div id="hero-carousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="true">
+        <!--indicators-->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -63,50 +73,54 @@
             <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
+
+        <!--images + captions-->
         <div class="carousel-inner ratio ratio-21x9">
             <div class="carousel-item active" data-bs-interval="2000">
                 <img src="assets/featured-img.png" class="d-block w-100"
                     alt="Headphones, keyboard, mouse and a pen and a notebook on a pink background.">
+                <!--caption for desktop-->
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Jamatron</h1>
                     <p>A new way to listen to your favorite music, together with friends and fans.</p>
-                    <!--caption for desktop-->
                 </div>
-
+                <!--caption for mobile-->
                 <div class="carousel-caption d-block d-md-none">
-                    <p class="caption-heading">Jamatron</h2>
+                    <p class="caption-heading">Jamatron</p>
                     <p>A new way to listen to your favorite music, together with friends and fans.</p>
-                    <!--caption for mobile-->
                 </div>
             </div>
 
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/featured-img2.png" class="d-block w-100"
                     alt="Drawn devices, including a laptop, a phone, a calculator, plus some sticky notes and a cup of coffee.">
+                <!--caption for desktop-->
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="caption-heading">New! OFFICIAL streaming parties</h2>
+                    <p class="caption-heading">New! OFFICIAL streaming parties</p>
                     <p>Connect with your favorite artist and fans all around the world in streaming parties, a chance to
                         listen to a new body of work while its creator discusses the creative process, LIVE, as soon at
                         it gets released.</p>
                 </div>
-
+                <!--caption for mobile-->
                 <div class="carousel-caption d-block d-md-none">
-                    <p class="caption-heading">Official streaming parties</h2>
+                    <p class="caption-heading">Official streaming parties</p>
                     <p>Connect with your favorite artist and fans all around the world in streaming parties, a chance to
                         listen to a new body of work while its creator discusses the creative process, LIVE, as soon at
                         it gets released.</p>
                 </div>
             </div>
+
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/featured-img3.png" class="d-block w-100"
                     alt="A laptop, an open bag, a notebook and a cup of coffee all laid on a desk.">
+                <!--caption for desktop-->
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="caption-heading">Leaderboards</h2>
+                    <p class="caption-heading">Leaderboards</p>
                     <p>Win awards on artist leaderboards and compete with other people.</p>
                 </div>
-
+                <!--caption for mobile-->
                 <div class="carousel-caption d-block d-md-none">
-                    <p class="caption-heading">Leaderboards</h2>
+                    <p class="caption-heading">Leaderboards</p>
                     <p>Win awards on artist leaderboards and compete with other people.</p>
                 </div>
             </div>
@@ -114,15 +128,16 @@
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/featured-img4.png" class="d-block w-100"
                     alt="A bunch of work related objects and the hands of a man holding a phone.">
+                <!--caption for desktop-->
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="caption-heading">New! Jamatron Streaming Stats</h2>
+                    <p class="caption-heading">New! Jamatron Streaming Stats</p>
                     <p>Do you wish to know how big of a fan of your favorite artist you are? Look no further. Jamatron
                         takes streaming statistics and creates a leaderboard for each artist of their most passionate
                         fans.</p>
                 </div>
-
+                <!--caption for mobile-->
                 <div class="carousel-caption d-block d-md-none">
-                    <p class="caption-heading">Jamatron Streaming Stats</h2>
+                    <p class="caption-heading">Jamatron Streaming Stats</p>
                     <p>Do you wish to know how big of a fan of your favorite artist you are? Look no further. Jamatron
                         takes streaming statistics and creates a leaderboard for each artist of their most passionate
                         fans.</p>
@@ -132,21 +147,24 @@
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/featured-img5.png" class="d-block w-100"
                     alt="Two of our office colleagues looking at code on a laptop, one of them pointing at it.">
+                <!--caption for desktop-->
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="caption-heading">New! Apple Watch integration!</h2>
+                    <p class="caption-heading">New! Apple Watch integration!</p>
                     <p>We're working on and we plan to release Apple Watch support in the near future! You will be able
                         to control the streaming session directly from your watch, by playing/pausing, rewinding,
                         skipping and even checking the queue.</p>
                 </div>
-
+                <!--caption for mobile-->
                 <div class="carousel-caption d-block d-md-none">
-                    <p class="caption-heading">Apple Watch integration</h2>
+                    <p class="caption-heading">Apple Watch integration</p>
                     <p>We plan to release Apple Watch support in the near future! You will be able to control the
                         streaming session directly from your watch, by playing/pausing, rewinding, skipping and even
                         checking the queue.</p>
                 </div>
             </div>
         </div>
+
+        <!--prev & next buttons-->
         <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -156,9 +174,12 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-        <!--About the app-->
+
+
+    <!--About the app-->
     <div class="container mt-4">
         <h2 id="aboutapp" class="mb-3">About the app</h2>
+
         <p class="text-justify">Jamatron takes listening parties to a whole new level. Jam to your favorite songs or to a fresh out the oven
             release from one of your favorite artists with this innovative new social music service. </p>
         <p class="text-justify">Jamatron connects to your everyday-use streaming service provider and allows you and your friends to jam
@@ -187,16 +208,18 @@
             </div>
         </div>
     </div>
-        <!--Features-->
+
+
+    <!--Features-->
     <div class="container mt-4">
         <h2 id="features" class="mb-3">Features</h2>
 
-        <div class="row">      <!--cards-->
+        <div class="row">
             <div class="col-6 d-flex align-items-stretch">
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="assets/features2.png" class="w-100 d-block mx-auto" alt="...">
+                            <img src="assets/features1.png" class="w-100 d-block mx-auto" alt="Connection between people, symbol">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -212,7 +235,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="assets/features3.png" class="w-100 d-block mx-auto" alt="...">
+                            <img src="assets/features2.png" class="w-100 d-block mx-auto" alt="Graph symbol">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -230,7 +253,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="assets/features1.png" class="card-img-top w-100 d-block mx-auto" alt="...">
+                            <img src="assets/features3.png" class="card-img-top w-100 d-block mx-auto" alt="Signals symbol">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -247,7 +270,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="assets/features4.png" class="w-100 d-block mx-auto" alt="...">
+                            <img src="assets/features4.png" class="w-100 d-block mx-auto" alt="Leaderboards symbol">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -265,7 +288,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="assets/features5.png" class="p-1 w-100 d-block mx-auto" alt="...">
+                            <img src="assets/features5.png" class="p-1 w-100 d-block mx-auto" alt="Two women and two men at a desk during a meeting, looking at the screen, duotone photo">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -286,94 +309,98 @@
             </div>
         </div>
     </div>
+
+
     <!--Our team-->
     <div class="container mt-4">
         <h2 id="team" class="mb-3">Our team</h2>
+
         <div class="row">
+            <!--Shiv-->
             <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/shiv.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Shiv Macleod</h3>
-                    <p class="card-text">CEO of Jamatron</p>
+                <div class="card">
+                    <img src="assets/shiv.jpg" class="card-img-top" alt="Woman with ginger hair holding out her tongue.">
+                    <div class="teamcard card-body">
+                        <h3>Shiv Macleod</h3>
+                        <p class="card-text">CEO of Jamatron</p>
+                    </div>
                 </div>
             </div>
+            <!--Jayden-->
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/jayjay.jpg" class="card-img-top" alt="Brunette woman wearing a green patterned shirt with a big smile on her face.">
+                    <div class="teamcard card-body">
+                        <h3>Jayden Kirklan</h3>
+                        <p class="card-text">C++ Developer</p>
+                    </div>
+                </div>
+            </div>
+            <!--Tasha-->
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/tasha.jpg" class="card-img-top" alt="Blonde woman wearing glasses, with a blurred neon colored background behind her.">
+                    <div class="teamcard card-body">
+                        <h3>Tasha Conrad</h3>
+                        <p class="card-text">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>  
+            <!--Arun-->
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/arun.jpg" class="card-img-top" alt="Man with long rainbow beard, wearing a star pattern tank top.">
+                    <div class="teamcard card-body">
+                        <h3>Arun McGuy</h3>
+                        <p class="card-text">SEO Expert</p>
+                    </div>
+                </div>
+            </div>
+            <!--Kajol-->
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/kajol.jpg" class="card-img-top" alt="Redhead woman wearing a red blouse, in front of a yellow background.">
+                    <div class="teamcard card-body">
+                        <h3>Kajol Maddox</h3>
+                        <p class="card-text">Marketing Expert</p>
+                    </div>
+                </div>
+            </div>
+            <!--Michael-->
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
+                <div class="card">
+                    <img src="assets/michael.jpg" class="card-img-top" alt="Man with afro, wearing a brown shirt, in front of a gray, textured background.">
+                    <div class="teamcard card-body">
+                        <h3>Michael Yair</h3>
+                        <p class="card-text">Python Developer</p>
+                    </div>
+                </div>
             </div>
 
-        <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/jayjay.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Jayden Kirklan</h3>
-                    <p class="card-text">C++ Developer</p>
-                </div>
+            <div class="text-center">
+                <p>Our team is putting in their best efforts to build Jamatron as the go-to streaming session service!</p>
+                <p>Do you have an amazing idea on how to make Jamatron better that you wish to share with us?</p>
+                <p>Contact us!</p>
             </div>
         </div>
 
-        <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/tasha.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Tasha Conrad</h3>
-                    <p class="card-text">UI/UX Designer</p>
-                </div>
-            </div>
-        </div>  
-
-        <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/arun.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Arun McGuy</h3>
-                    <p class="card-text">SEO Expert</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/kajol.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Kajol Maddox</h3>
-                    <p class="card-text">Marketing Expert</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-2 col-md-4 col-sm-6 d-flex align-items-stretch mb-3">
-            <div class="card">
-                <img src="assets/michael.jpg" class="card-img-top" alt="...">
-                <div class="teamcard card-body">
-                    <h3>Michael Yair</h3>
-                    <p class="card-text">Python Developer</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-center">
-            <p>Our team is putting in their best efforts to build Jamatron as the go-to streaming session service!</p>
-            <p>Do you have an amazing idea on how to make Jamatron better that you wish to share with us?</p>
-            <p>Contact us!</p>
-        </div>
-
-    </div>
-
+        <!--team pictures-->
         <div class="row">
             <div class="col-12 col-lg-4 d-flex mb-3">
                 <div class="card p-2">
-                    <img src="assets/team1.jpg" class="card-img-top" alt="...">  
-            </div>
+                    <img src="assets/team1.jpg" class="card-img-top" alt="Modern office with people working on computers.">  
+                </div>
             </div>
 
             <div class="col-12 col-lg-4 d-flex mb-3">
                 <div class="card p-2">
-                    <img src="assets/team2.jpg" class="card-img-top" alt="...">
+                    <img src="assets/team2.jpg" class="card-img-top" alt="Two of our office colleagues looking at code on a laptop, one of them pointing at it.">
                 </div>
             </div>
 
             <div class="col-12 col-lg-4 d-flex mb-3">
                 <div class="card p-2 justify-content-center">
-                    <img src="assets/team3.jpg" class="card-img-top" alt="...">
+                    <img src="assets/team3.jpg" class="card-img-top" alt="Five people fist bumping over a desk with laptops.">
                 </div>
             </div>  
         </div>
@@ -381,13 +408,13 @@
         <div class="row">
             <div class="col-12 col-lg-6 d-flex mb-3">
                 <div class="card p-2">
-                    <img src="assets/team4.jpg" class="card-img-top" alt="...">  
-            </div>
+                    <img src="assets/team4.jpg" class="card-img-top" alt="A bunch of men in suits posing funnily in an office hallway.">  
+                </div>
             </div>
 
             <div class="col-12 col-lg-6 d-flex mb-3">
                 <div class="card p-2">
-                    <img src="assets/team5.jpg" class="card-img-top" alt="...">
+                    <img src="assets/team5.jpg" class="card-img-top" alt="Five co-workers smiling, staring at a laptop screen.">
                 </div>
             </div>
         </div>
@@ -398,100 +425,109 @@
             <p>Do you wish to join our team and help us create a unique, full featured product on a market that desperately needs it?</p>
             <p>Submit your applications via e-mail! <i class="fa-solid fa-arrow-down"></i></p>
         </div>
+
     </div>
 
-
+<!--footer-->
 <footer class="footerstyle text-center">
     <div class="container p-4">
-      <!--social media -->
-      <section class="mb-4">
-        <!--facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+
+        <!--social media -->
+        <section class="mb-4">
+
+            <!--facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://facebook.com" role="button">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+    
+            <!--twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button">
+                <i class="fab fa-twitter"></i>
+            </a>
+    
+            <!--instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com" role="button">
+                <i class="fab fa-instagram"></i>
+            </a>
+    
+            <!--github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/valentinfigher/jamatron" role="button">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!--tumblr-->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://mothercain.tumblr.com" role="button">
+                <i class="fab fa-tumblr"></i>
+            </a>
+
+            <!--mail-->
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:contact@jamatron.com" role="button">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+
+        </section>
+
+        <!--menu-->
+        <section>
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 mb-1">
+                    <p class="mb-1 text-uppercase dyma">Did you miss anything?</p>
   
-        <!--twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!--instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!--github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+                    <ul class="list-unstyled mb-3">
+                        <li>
+                            <a href="#aboutapp" class="footerlinks">About the app</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="footerlinks">Features</a>
+                        </li>
+                        <li>
+                            <a href="#team" class="footerlinks">Our team</a>
+                        </li>
+                    </ul>
+                </div>
 
-        <!--tumblr-->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-tumblr"></i
-        ></a>
+                <div class="col-12 col-lg-4 col-md-4 mb-1">
+                    <p>Because we pride ourselves with transparency in development and love getting insight and reviews from our users, the contact information of all our developers is publicly available! 
+                    Click on the social media links above to get in touch with any of members of our team. 
+                    Contact us if you have any questions about Jamatron and request any features you might be interested in.</p>
+                </div>
 
-        <!--mail-->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
-
-
-      </section>
-
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-12 col-lg-4 col-md-4 mb-1">
-            <p class="mb-1 text-uppercase dyma">Did you miss anything?</p>
-  
-            <ul class="list-unstyled mb-3">
-              <li>
-                <a href="#aboutapp" class="footerlinks">About the app</a>
-              </li>
-              <li>
-                <a href="#features" class="footerlinks">Features</a>
-              </li>
-              <li>
-                <a href="#team" class="footerlinks">Team</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <div class="col-12 col-lg-4 col-md-4 mb-1">
-            <p>
-              Because we pride ourselves with transparency in development and love getting insight and reviews from our users, the contact information of all our developers is publicly available! Click on the social media links above to get in touch with any of members of our team.
-Contact us if you have any questions about Jamatron and request any features you might be interested in.
-            </p>
-          </div>
-
-          <div class="col-12 col-lg-4 col-md-4 mb-1">
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1670970299046!6m8!1m7!1sHz9qTI17p_1hjdYdGQDzag!2m2!1d32.73021139150925!2d-96.66811955964289!3f328.3703785835834!4f-0.4725036979579471!5f1.960570487136997" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </section>
+                <div class="col-12 col-lg-4 col-md-4 mb-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1670970299046!6m8!1m7!1sHz9qTI17p_1hjdYdGQDzag!2m2!1d32.73021139150925!2d-96.66811955964289!3f328.3703785835834!4f-0.4725036979579471!5f1.960570487136997" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
     </div>
   
     <!--copyright -->
     <div class="text-center p-3 copyrightshade">
-      © 2022 Jamatron. All rights reserved.
+        <p>© 2022 Jamatron. All rights reserved.</p>
     </div>
-    <!--copyright -->
-  </footer>
-          
+
+</footer>
+    
+    <!--javascript-->
+
+    <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
         </script>
+    
+    <!--fontawesome-->
     <script src="https://kit.fontawesome.com/a88310ed47.js" crossorigin="anonymous"></script>
+
+    <!--progress bar-->
     <script>const scrollProgress = document.getElementById('scroll-progress');
-        const height =
-          document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const height =
+                document.documentElement.scrollHeight - document.documentElement.clientHeight;
         
-        window.addEventListener('scroll', () => {
-          const scrollTop =
-            document.body.scrollTop || document.documentElement.scrollTop;
-          scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
-        });</script>
+            window.addEventListener('scroll', () => {
+                const scrollTop =
+                    document.body.scrollTop || document.documentElement.scrollTop;
+                scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+            });
+    </script>
 </body>
+
+</html>
